@@ -74,7 +74,7 @@
    -->
   <Target Name="__PrepareBuild"
           DependsOnTargets="__GetCopyToOutputDirectoryItems">
-    <MSBuild Projects="@(ProjectReference)" UseResultsCache="true" Properties="Configuration=$(Configuration);Platform=$(Platform)" Condition="$(NuBuildRecompileReferances)==true">      
+    <MSBuild Projects="@(ProjectReference)" UseResultsCache="true" Properties="Configuration=$(Configuration);Platform=$(Platform)" Condition="$(BuildingInsideVisualStudio)!=true">      
       <Output TaskParameter="TargetOutputs" ItemName="__ReferenceLibraries" />      
     </MSBuild>
 
