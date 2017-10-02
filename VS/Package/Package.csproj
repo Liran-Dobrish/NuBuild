@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
   <PropertyGroup>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{1E196872-CD2A-41DC-AFDB-4CF0B34EEB26}</ProjectGuid>
@@ -16,7 +16,7 @@
     <StartProgram>$(Registry:HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\11.0@InstallDir)\devenv.exe</StartProgram>
     <StartArguments>/rootsuffix Exp</StartArguments>
     <OutputPath>Bin\</OutputPath>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <FileUpgradeFlags>
