@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>NNuGet Package Specification</Name>
+    <Description>NuGet Package Specification</Description>
+    <Icon>NuSpec.ico</Icon>
+    <TemplateID>a92b7848-0b40-42ba-bbb2-162da3115c1b</TemplateID>
+    <ProjectType>NuGet</ProjectType>  
+    <DefaultName>Package.nuspec</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ItemType="Compile" ReplaceParameters="true">NuSpec.nuspec</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
